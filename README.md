@@ -1,1 +1,1 @@
-# 2017_2018
+# A 2017-ben indult csapat oldala
