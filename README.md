@@ -1,1 +1,3 @@
-# A 2017-ben indult csapat oldala
+# cpp-ev3-i
+
+CPP oktatás robottal. Az első évad anyaga.

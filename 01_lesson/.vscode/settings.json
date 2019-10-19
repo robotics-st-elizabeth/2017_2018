@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "thread": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "string": "cpp"
+    },
+    "ev3devBrowser.download.exclude": "{**/.*,LICENSE,README.md,*.pc*,ev3dev/*}"
+}

@@ -1,0 +1,68 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "arm-linux-gnueabi-g++: build executable",
+            "type": "shell",
+            "command": "arm-linux-gnueabi-g++",
+            "args": [
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "${file}",
+                "ev3dev/ev3dev.arm.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "arm-linux-gnueabi-g++: build debug executable",
+            "type": "shell",
+            "command": "arm-linux-gnueabi-g++",
+            "args": [
+                "-g",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.dbg.out",
+                "${file}",
+                "ev3dev/ev3dev.arm.o"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "g++: build executable",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.pc",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "g++ build debug executable",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.pc.dbg.out",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
