@@ -120,7 +120,3 @@ A fenti kódban találkozunk a 3 leggyakrabban használt típussal. Fontos észb
 ## Ismerkedés a GitHubbal
 
 Az első alkalom végén mindenkivel csinálunk GitHub accountot, és feltöltjük az első órai anyagokat.
-
-## Értékadás, operátorok, kifejezések
-
-Itt folytatjuk...
