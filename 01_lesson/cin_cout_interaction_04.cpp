@@ -18,4 +18,6 @@ int main(){
     cout << "Your string is \"" << something << "\", your round number is " << int_number;
     cout << " and your floating point number is " << float_number << endl;
     // Now, we can understand what "stream" means in iostream.
+
+    return 0;
 }

@@ -154,13 +154,3 @@ i++ = 2
 i-- = 1
 i-- = 0
 ```
-
-## Kifejezések, matematikai függvények
-
-git bash reset global username
-
-AskUbuntu git config global file - remove settings
-
-git config --global --unset-all user.name
-
-git config --list

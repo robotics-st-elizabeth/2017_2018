@@ -19,4 +19,6 @@ int main(){
     x = x + 1; // Seems to be paradox. 
     // First, right hand side is calculated and then the result is assigned to left-hand-side variable.
     cout << "x = x + 1; \nAnd then x = " << x << endl;
+
+    return 0;
 }

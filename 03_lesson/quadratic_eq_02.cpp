@@ -1,13 +1,8 @@
-// Mathematical functions and expressions.
+// Solution for quadratic equation.
 #include<iostream>
 #include<cmath>
 
-using std::cout;
-using std::cin;
-using std::endl;
-using std::pow;
-using std::sqrt;
-
+using namespace std;
 
 int main(){
     double a, b, c;
@@ -35,4 +30,6 @@ int main(){
     cout << "Equation: " << a << "*x^2 + " << b << "*x + " << c << endl;
     cout << "Discriminant: " << discriminant << endl;
     cout << "x1 = " << x1 << ", x2 = " << x2 << endl;
+
+    return 0;
 }

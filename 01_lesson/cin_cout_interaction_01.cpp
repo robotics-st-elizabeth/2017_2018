@@ -7,4 +7,6 @@ int main(){
     std::cout << "Write something!" << std::endl;
     std::cin >> something;
     std::cout << "You have written that " << something << std::endl;
+
+    return 0;
 }

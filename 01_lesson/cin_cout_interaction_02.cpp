@@ -9,4 +9,6 @@ int main(){
     cout << "Write something!" << endl;
     cin >> something;
     cout << "You have written that " << something << endl;
+
+    return 0;
 }

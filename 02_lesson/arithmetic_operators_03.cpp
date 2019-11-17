@@ -35,4 +35,6 @@ int main(){
     cout << "i-- = " << i << endl;
     i--;
     cout << "i-- = " << i << endl;
+
+    return 0;
 }

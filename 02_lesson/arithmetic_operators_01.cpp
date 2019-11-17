@@ -21,4 +21,6 @@ int main(){
 
     i = j % k;
     cout << "j % k = " << i << endl;
+
+    return 0;
 }

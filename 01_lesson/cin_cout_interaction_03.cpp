@@ -13,4 +13,6 @@ int main(){
     cin >> int_number;
     cout << "You have written that " << something << ", and then you typed in number " << int_number << endl;
     // Now, we can understand what "stream" means in "iostream".
+
+    return 0;
 }
