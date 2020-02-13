@@ -109,8 +109,7 @@ else if (discriminant == 0){
     cout << "There is only one real solution." << endl << "x = " << x1 << endl;
 }
 else
-    cout << "There is no real solution!\n";
-}
+    cout << "There is no real solution!\n"
 ```
 
 ## Gyakorló feladat

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "thread": "cpp"
+    },
+    "ev3devBrowser.download.exclude": "{**/.*,LICENSE,README.md,*.pc*,ev3dev/*}"
+}
